@@ -33,6 +33,6 @@ def turn(board)
   until valid_move?(board,index) == false
     move(board, index)
     display_board(board)
+  end
     turn(board)
-end
 end
